@@ -1,0 +1,130 @@
+
+$Doll-View-color: #332e28;
+.Doll {
+    padding-bottom: 30px;
+    width: 100%;
+    background-color: $Doll-View-color;
+}
+.doll_btn {
+    opacity: 0.8;
+}
+.doll_btn_on {
+    opacity: 1;
+}
+.doll_list {
+    //margin-left: 1%;
+   // margin-right: 1%;
+    width: 18%;
+}
+
+.doll_view {
+    padding-top: 30px;
+}
+.doll_btn_w {
+    position: relative;
+    height: 75px;
+}
+
+@media screen and (min-width: 922px ) {
+
+
+    .doll_btn_text {
+        display: inline-block;
+        margin-top: 45px;
+    }
+
+    .doll_btn {
+        display: inline-block;
+        color: white;
+        width: 350px;
+        height: 98px;
+        margin: 15px;
+    }
+
+    .doll_list_view {
+        margin-top: 35px;
+    }
+
+    .doll_view {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width: 769px )and (max-width: 921px ) {
+
+
+    .doll_btn_text {
+        display: inline-block;
+        margin-top: 45px;
+    }
+
+    .doll_btn {
+        display: inline-block;
+        color: white;
+        width: 300px;
+        height: 98px;
+        margin: 15px;
+    }
+
+    .doll_list_view {
+
+        margin-top: 35px;
+    }
+
+    .doll_view {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 501px ) and (max-width: 768px ) {
+    .doll_btn_text {
+        display: inline-block;
+        margin-top: 35px;
+    }
+
+    .doll_btn {
+        display: inline-block;
+        color: white;
+        width: 300px;
+        height: 78px;
+        margin: 8px;
+    }
+
+    .doll_list_view {
+        margin-top: 15px;
+    }
+
+    .doll_view {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px ) {
+    .doll_btn_text {
+        display: inline-block;
+        margin-top: 9px;
+    }
+
+    .doll_btn {
+        display: inline-block;
+        color: white;
+        width: 150px;
+        height: 36px;
+        margin: 8px;
+    }
+
+    .doll_list_view {
+        margin-top: 5px;
+    }
+
+    .doll_view {
+        padding-top: 5px;
+    }
+}

@@ -1,0 +1,131 @@
+
+
+.top_view_default {
+    height: 100%;
+    float: left;
+}
+.top_view_sm_default {
+    
+    height: 100%;
+    float: left;
+}
+.r {
+    position: absolute;
+    right: 5px;
+    top: 8px;
+}
+.l {
+    position: absolute;
+    left: 5px;
+}
+
+.main_title {
+ 
+    position: absolute;
+    left: 25px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: wheat;
+}
+
+.sub_title {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 24px;
+    color: wheat;
+    font-weight: bold;
+}
+.Sub_Menu_But:hover {
+    opacity: 0.8;
+}
+.Sub_Menu {
+    z-index: 999;
+}
+$Sub_Menu_Color: #191717;
+.Sub_Menu {
+    padding: 15px;
+    background-color: $Sub_Menu_Color;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    list-style: none;
+    opacity: 0.9;
+    
+
+    li {
+        // text-align: left;
+        font-size: 54px;
+        font-weight:bold;
+        color: wheat;
+    }
+}
+.Sub_Menu_Tag {
+    margin-top: 75px;
+
+    a {
+        span {
+            font-size: 48px;
+            color: wheat;
+        }
+    }
+}
+
+.Sub_Menu_close {
+    width: 50px;
+    height: 50px;
+
+
+    span {
+        font-size: 36px;
+    }
+}
+.Top_View {
+    z-index: 99;
+}
+$Top-View-color : #332e28;
+
+@media screen and (min-width: 993px) {
+    .Top_View_Wraper {
+        height: 70px;
+    }
+    .Top_View {
+        position:fixed;
+        background-color: $Top-View-color;
+        height: 70px;
+        width: 100%;
+    }
+       
+
+    
+    /* 데스크탑에서 사용될 스타일을 여기에 작성합니다. */
+}
+@media screen and (max-width: 992px) {
+    .Top_View_Wraper {
+        height: 50px;
+    }
+    .Top_View {
+        position: fixed;
+        background-color: $Top-View-color;
+        height: 50px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 301px) {
+
+    .sm_title {
+        width: 200px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 300px) {
+   
+
+    .sm_title {
+        width: 100px;
+        overflow: hidden;
+    }
+}
+
+
+
+

@@ -1,0 +1,95 @@
+
+$deep_color: #332e28;
+
+.Game_info_View {
+    position: relative;
+    margin-top: 1px;
+    padding-bottom: 10px;
+    background-color: #cb9d59;
+    border: 5px solid #cb9d59;
+}
+
+.Game_info_Img {
+    left: 50%;
+    position: absolute;
+    width: 70%;
+    z-index: 2;
+    transform: translateX(-50%);
+    top: 9%;
+}
+
+.game_info_font {
+    font-family: 'Source Code Pro', monospace;
+    color: $deep_color;
+    font-weight: bold;
+}
+
+.game_info_wraper {
+    margin-top: 20px;
+    position: relative;
+}
+
+.my_btn {
+    width: 30px;
+    height: 30px;
+    margin: 4px;
+    margin-top:10px;
+}
+.L {
+    left: 0px;
+}
+.R{
+    right:0px;
+}
+.game_info_bg {
+   
+    z-index: 1;
+    width: 80%;
+}
+.game_info_subline {
+   // background-color: wheat;
+   // width: 40%;
+    margin: 0 auto;
+    margin-top: 15px;
+    //border: 1px inset  #332e28;
+}
+@media screen and (min-width: 993px ) {
+
+    .my_btn {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 992px ) {
+
+
+    .my_btn {
+        width: 26px;
+        height: 26px;
+    }
+}
+@media screen and (min-width: 769px ) {
+
+    .game_info_font {
+        font-size: 24px;
+    }
+    .my_btn {
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+
+
+    .game_info_font {
+        font-size: 16px;
+    }
+    .my_btn {
+        width: 20px;
+        height: 20px;
+        margin-top: 5px;
+    }
+}

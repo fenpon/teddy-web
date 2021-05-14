@@ -1,0 +1,2 @@
+C:\Users\fenpo\Desktop\Web\teddy-web-backend\teddy-web-backend\teddy-web-backend\obj\Debug\teddy-web-backend.njsproj.CoreCompileInputs.cache
+C:\Users\fenpo\Desktop\Web\teddy-web-backend\teddy-web-backend\teddy-web-backend\bin\Microsoft.NodejsTools.WebRole.dll
